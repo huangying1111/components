@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "outDir": "build/dist",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowJs": true, // 允许js
+    "target": "es6",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "jsx": "react",
+    "lib": ["dom", "es6", "dom.iterable", "scripthost"],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true, // import React from 'react'
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "baseUrl": "src",
+    "paths": {
+      "pages/*": ["pages/*"],
+      "style/*": ["style/*"],
+      "utils/*": ["utils/*"],
+      "static/*": ["static/*"],
+      "assets/*": ["assets/*"],
+      "components/*": ["components/*"]
+    }
+  },
+  "exclude": [
+    "./bin",
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts"
+  ]
+}

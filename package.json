@@ -1,0 +1,36 @@
+{
+  "name": "antd-demo-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.7.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router": "4.1.1",
+    "react-router-dom": "4.1.1",
+    "react-scripts-ts": "2.16.0"
+  },
+  "scripts": {
+    "dev": "react-app-rewired start --scripts-version react-scripts-ts",
+    "build": "react-app-rewired build --scripts-version react-scripts-ts",
+    "test": "react-app-rewired test --env=jsdom --scripts-version react-scripts-ts",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "@types/node": "^10.5.4",
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-redux": "^6.0.6",
+    "@types/react-router-dom": "^4.3.1",
+    "node-sass": "^4.9.2",
+    "react-app-rewired": "^1.5.2",
+    "sass-loader": "^7.0.3",
+    "ts-import-plugin": "^1.5.4",
+    "typescript": "^3.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.10.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-react": "^3.6.0"
+  }
+}

@@ -1,0 +1,18 @@
+/*
+ * @Author: huangying
+ * @Date: 2018-09-07 14:41:50
+ * @Last Modified by:   huangying
+ * @Last Modified time: 2018-09-07 14:41:50
+ */
+
+@import 'style/color.scss';
+
+.ngEmployeePicker{
+  .employeePicker_name {
+    color: $secondary-text-color;
+  }
+  .employeePicker_name-active {
+    color: $secondary-text-color !important;
+  }
+}
+
