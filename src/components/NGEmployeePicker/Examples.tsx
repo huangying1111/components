@@ -107,6 +107,7 @@ export default class Examples extends PureComponent<IProps, IState> {
         />
         {/* 单选 需要姓名 */}
         <NGEmployeePicker
+        className="ml-20"
           defaultValue={{ key: 'huang', label: '黄黄英' }}
           attribute={{ labelInValue: true }}
           onChange={this.onChange}
@@ -123,6 +124,7 @@ export default class Examples extends PureComponent<IProps, IState> {
         />
         {/* 多选 需要姓名 */}
         <NGEmployeePicker
+          className="ml-20"
           defaultValue={[{ key: 'huang', label: '黄黄英' }]}
           attribute={{ labelInValue: true, mode: 'multiple' }}
           onChange={this.onChange}
